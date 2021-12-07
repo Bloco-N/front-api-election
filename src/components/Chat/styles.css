@@ -1,0 +1,48 @@
+.c-chat{
+
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50%;
+  border: solid 0.2rem var(--color-1);
+  border-radius: 2rem;
+  padding: 2rem;
+
+}
+
+.c-chat .messages{
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.c-chat .message{
+
+  display: inline-block;
+  background-color: var(--color-1);
+  color: var(--color-2);
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+
+.c-chat .message h2{
+
+  font-size: 1.2rem;
+
+}
+
+.c-chat .message span{
+
+  font-weight: 400;
+
+}
+
+.c-chat input{
+
+  all: unset;
+  color: var(--color-1);
+  width: 100%;
+
+}

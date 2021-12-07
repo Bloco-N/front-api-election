@@ -1,0 +1,22 @@
+.l-login{
+
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.l-login form{
+
+  display: flex;
+  gap: 1rem;
+
+}
+
+.l-login input{
+
+  all: unset;
+
+}

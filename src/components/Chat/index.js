@@ -12,7 +12,7 @@ const Chat = (props) => {
         ))}
       </div>
       <form action="">
-        <input type="text" placeholder="type your message" />
+        <input type="text" placeholder="escreva uma mensagem" />
       </form>
     </div>
   );

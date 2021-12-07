@@ -18,7 +18,7 @@ const Login = () => {
     <div className="l-login">
       <form action="" onSubmit={e => formHandler(e)}>
         <h2>Bem vindo:</h2>
-        <input ref={nameInput} type="text" placeholder="Set your name" />
+        <input ref={nameInput} type="text" placeholder="escolha seu nome" />
       </form>
     </div>
   );

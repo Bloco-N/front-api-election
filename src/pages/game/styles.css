@@ -1,0 +1,23 @@
+.l-game{
+
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.l-game .log-out{
+
+  all: unset;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--color-1);
+  color: var(--color-2);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+}

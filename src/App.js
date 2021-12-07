@@ -2,13 +2,21 @@ import './App.css';
 import MyRoutes from './router';
 import sunIcon from './assets/sun-icon.svg';
 import moonIcon from './assets/moon-icon.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
   const [darkTheme, setDarkTheme] = useState(false);
 
+  useEffect(() => {
+    if (localStorage.getItem('user_theme') === 'dark') {
+      setDarkTheme(true);
+    }
+  }, [])
+
   const handleTheme = () => {
     setDarkTheme(!darkTheme);
+    console.log(darkTheme);
+    localStorage.setItem('user_theme', darkTheme ? 'light' : 'dark');
   }
 
   return (

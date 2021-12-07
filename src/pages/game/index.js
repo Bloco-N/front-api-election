@@ -8,7 +8,8 @@ const Game = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    localStorage.clear();
+    localStorage.removeItem('user_name');
+    localStorage.removeItem('user_id');
     navigate('/');
   }
 
